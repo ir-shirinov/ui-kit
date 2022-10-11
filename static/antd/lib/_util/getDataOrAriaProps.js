@@ -1,0 +1,1 @@
+"use strict";function getDataOrAriaProps(props){return Object.keys(props).reduce((function(prev,key){return!key.startsWith("data-")&&!key.startsWith("aria-")&&"role"!==key||key.startsWith("data-__")||(prev[key]=props[key]),prev}),{})}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=getDataOrAriaProps;
