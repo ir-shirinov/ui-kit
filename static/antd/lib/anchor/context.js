@@ -1,0 +1,1 @@
+"use strict";var _interopRequireWildcard=require("@babel/runtime/helpers/interopRequireWildcard").default;Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var React=_interopRequireWildcard(require("react")),AnchorContext=React.createContext(null),_default=AnchorContext;exports.default=_default;
